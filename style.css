@@ -3,6 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+.header{
+     /* display: flex; */
 
+
+}
 /* header */
+.header__right{
+     display: flex;
+     justify-content: flex-start;
+}
+.header__left{
 
+     display: flex;
+     justify-content: flex-end;
+}
