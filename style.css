@@ -3,18 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header{
-     /* display: flex; */
-
-
+.header {
+  /* display: flex; */
 }
 /* header */
-.header__right{
-     display: flex;
-     justify-content: flex-start;
+.header__right {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
 }
-.header__left{
-
-     display: flex;
-     justify-content: flex-end;
+.header__right a {
+  margin-left: 2rem;
+  text-decoration: none;
+}
+.header__left {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+.header__left a {
+  margin-left: 2rem;
+  text-decoration: none;
 }
